@@ -1,4 +1,7 @@
 // Concatenating strings
+let firstName = "Eric";
+let lastName = "Heller";
+let age = 17;
 let fullName = firstName + " " + lastName;
 console.log(fullName); //Output: Stan Lee
     
@@ -6,55 +9,52 @@ console.log(fullName); //Output: Stan Lee
 let userInfo = "Name: " + fullName + ", Age: " + age;
 console.log(userInfo); // Output: Name: Stan Lee, Age: 17
 
-let month = November;
+let month = "November";
 let text = "It's Thanksgiving";
-
-if (month > December) {
-    text = "It's Christmas!";
-}
+let date = "";
 
 switch (new Date().getMonth()) {
-  case 1:
+  case 0:
     date = "January";
     break;
-  case 2:
+  case 1:
     date = "February";
     break;
-  case 3:
+  case 2:
     date = "March";
     break;
-  case 4:
+  case 3:
     date = "April";
     break;
-  case 5:
+  case 4:
     date = "May";
     break;
-  case 6:
+  case 5:
     date = "June";
     break;
-  case 7:
+  case 6:
     date = "July";
     break;
-  case 8:
+  case 7:
     date = "August";
     break;
-  case 9:
+  case 8:
     date = "September";
     break;
-  case 10:
+  case 9:
     date = "October";
     break;
-  case 11:
+  case 10:
     date = "November";
     break;
-  case 12:
+  case 11:
     date = "December";
     break;
 }
-
-let firstName = "Stan";
-let lastName = "Lee";
-let age = 17;
+console.log (date);
+if (date == "September") {
+    console.log("It's Fall!");
+}
 
 let x = 500;
 x.toString();
